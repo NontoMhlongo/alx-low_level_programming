@@ -7,12 +7,8 @@
  */
 int main(void)
 {
-	char ch = 'a'
-		putchar("Alphabets in lowercase:\n");
-	while (c <= 'z')
-	{
-		putchar("%c", ch);
-		ch++;
-	}
+	char c;
+	for (c = 'a'; c <= 'z'; ++c)
+		putchar("%c ", c);
 	return (0);
 }
